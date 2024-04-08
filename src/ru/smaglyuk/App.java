@@ -12,10 +12,14 @@ public class App
     {
         Scanner scan = new Scanner(System.in);
         System.out.print("Введите число: "); //вводим число из консоли
+        Scanner scan = new Scanner(System.in); //добавляем сканнер для ввода данных с консоли
+        System.out.print("Введите число: ");
         int x = scan.nextInt();
         int y = 2;  //инициализируем переменную
         int result = x*y+(someNumber-someNumber2);  // проводим арифметические действия
         System.out.println("Ваше число умноженное на 2: " + result);
         scan.close(); //закрываем наш сканнер
     }
+
+    //этот комментарий нужнем для очередного коммита
 }
