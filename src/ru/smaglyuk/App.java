@@ -9,7 +9,7 @@ public class App
     
     public static void main( String[] args )
     {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); //добавляем сканнер для ввода данных с консоли
         System.out.print("Введите число: ");
         int x = scan.nextInt();
         int y = 2;
