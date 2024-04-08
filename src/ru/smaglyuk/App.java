@@ -10,7 +10,7 @@ public class App
     public static void main( String[] args )
     {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Введите число: ");
+        System.out.print("Введите число: "); //вводим число из консоли
         int x = scan.nextInt();
         int y = 2;
         int result = x*y+someNumber;
