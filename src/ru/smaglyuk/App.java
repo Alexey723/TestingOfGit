@@ -15,6 +15,6 @@ public class App
         int y = 2;
         int result = x*y+someNumber;
         System.out.println("Ваше число умноженное на 2: " + result);
-        scan.close();
+        scan.close(); //закрываем наш сканнер
     }
 }
