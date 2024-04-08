@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App 
 {
 
-    public static int someNumber = 23;
+    public static int someNumber = 23; //добавляем нечто новое, чтобы прошёл ещё один коммит
 
     public static void main( String[] args )
     {
